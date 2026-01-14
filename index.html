@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlassAdmin Dashboard - 3D Glassmorphism Dashboard</title>
+    <meta name="description" content="3D Glassmorphism Dashboard Template by TemplateMo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-glass-admin-style.css">
+    <!--
+
+TemplateMo 607 Glass Admin
+
+https://templatemo.com/tm-607-glass-admin
+
+-->
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <div class="dashboard">
+        <main class="main-content">
+            <!-- Top Navbar -->
+            <nav class="navbar">
+                <h1 class="page-title">Dashboard Overview</h1>
+                <div class="navbar-right">
+                    
+                    <button class="nav-btn" id="theme-toggle" title="Toggle Light/Dark Mode">
+                        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="4"/>
+                            <path d="M12 2v2"/><path d="M12 20v2"/>
+                            <path d="M4.93 4.93l1.41 1.41"/><path d="M17.66 17.66l1.41 1.41"/>
+                            <path d="M2 12h2"/><path d="M20 12h2"/>
+                            <path d="M6.34 17.66l-1.41 1.41"/><path d="M19.07 4.93l-1.41 1.41"/>
+                        </svg>
+                        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Stats Cards -->
+            <section class="stats-grid">
+                <div class="glass-card glass-card-3d stat-card">
+                    <div class="stat-card-inner">
+                        <div class="stat-info">
+                            <h3>Total Sales</h3>
+                            <div class="stat-value">$1565804</div>
+                            
+                        </div>
+                        <div class="stat-icon cyan">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="var(--emerald-light)" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card glass-card-3d stat-card">
+                    <div class="stat-card-inner">
+                        <div class="stat-info">
+                            <h3>Quantity</h3>
+                            <div class="stat-value">22317</div>
+                            
+                        </div>
+                        <div class="stat-icon magenta">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="var(--coral)" stroke-width="2">
+                                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card glass-card-3d stat-card">
+                    <div class="stat-card-inner">
+                        <div class="stat-info">
+                            <h3>Total Profit</h3>
+                            <div class="stat-value">175260</div>
+                            
+                        </div>
+                        <div class="stat-icon purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="var(--emerald-light)" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card glass-card-3d stat-card">
+                    <div class="stat-card-inner">
+                        <div class="stat-info">
+                            <h3>Average Delivery Days</h3>
+                            <div class="stat-value">4</div>
+                            
+                        </div>
+                        <div class="stat-icon success">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+         
+            <section class="content-grid">
+      
+                <div class="glass-card chart-card">
+                    <div class="card-header">
+                        <div>
+                            <h2 class="card-title">Monthly Sales by YoY</h2>
+                            <p class="card-subtitle">Monthly revenue overview</p>
+                        </div>
+                        <div class="card-actions">
+                            <button class="card-btn">Year</button>
+                            <button class="card-btn blue">2019</button>
+                            <button class="card-btn navy">2020</button>
+                        </div>
+                    </div>
+                    <div class="chart-wrapper">
+                        <div class="chart-container">
+                            <div class="chart-y-axis y-axis-mini">
+                                <span class="y-value">0.4M</span>
+                                <span class="y-value">0.2M</span>
+                                <span class="y-value">0.0M</span>
+                                
+                            </div>
+
+                            <div class="chart-placeholder area-chart">
+
+  <!-- SVG Area Chart -->
+                                <svg class="area-svg" viewBox="0 0 800 300" preserveAspectRatio="none">
+
+    <!-- Main area fill -->
+                                <path class="area-main" d="M 40 220 L 100 220 L 160 200 L 220 210 L 280 195 L 340 205 L 400 208 L 460 205 L 520 200 L 580 120 L 640 170 L 700 110 L 760 90 L 760 260 L 40 260 Z" />
+    <!-- Main line -->
+                                <path class="line-main" d="M 40 220 L 100 220 L 160 200 L 220 210 L 280 195 L 340 205 L 400 208 L 460 205 L 520 200 L 580 120  L 640 170 L 700 110 L 760 90" />
+    <!-- Secondary area fill -->
+                                <path class="area-sub"  d="M 40 245 L 100 245 L 160 240 L 220 238 L 280 235 L 340 237 L 400 238 L 460 236 L 520 230 L 580 200 L 640 210 L 700 195 L 760 195 L 760 260 L 40 260 Z" />
+    <!-- Secondary line -->
+                               <path class="line-sub"  d="M 40 245 L 100 245  L 160 240 L 220 238 L 280 235 L 340 237  L 400 238  L 460 236  L 520 230  L 580 200 L 640 210   L 700 195  L 760 195" />
+                               </svg>
+  <!-- X-axis Labels -->
+                            <div class="chart-months"><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span>Nov</span><span>Dec</span></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card activity-card">
+                    <div class="card-header">
+                        <div>
+                            <h2 class="card-title">Sales by ShipMode</h2>
+                        </div>
+                    </div>
+                    <div class="hbar-card">
+                        <div class="hbar-row">
+                            <span class="hbar-label">Standard Class</span>
+                            <div class="hbar-track">
+                                <div class="hbar-bar" style="width: 91%;">
+                                    <span class="hbar-value">0.91M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar-row">
+                            <span class="hbar-label">Second Class</span>
+                            <div class="hbar-track">
+                                <div class="hbar-bar" style="width: 31%;">
+                                    <span class="hbar-value">0.31M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar-row">
+                            <span class="hbar-label">First Class</span>
+                            <div class="hbar-track">
+                                <div class="hbar-bar" style="width: 24%;">
+                                    <span class="hbar-value">0.24M</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hbar-row">
+                            <span class="hbar-label">Same Day</span>
+                            <div class="hbar-track last">
+                                <div class="hbar-bar" style="width: 10%;">
+                                    <span class="hbar-value">0.10M</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="glass-card table-card">
+                    <div class="card-header">
+                        <div>
+                            <h2 class="card-title">Monthly Profit by YoY</h2>
+                            <p class="card-subtitle">Profit by month</p>
+                        </div>
+                        <div class="card-actions">
+                            <button class="card-btn">Year</button>
+                            <button class="card-btn blue">2019</button>
+                            <button class="card-btn navy">2020</button>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+
+                        <div class="mini-line-card">
+                            <div class="mini-line-wrap">
+                                <!-- Y axis -->
+                                 <div class="mini-y-axis">
+                                    <span>20K</span>
+                                    <span>0K</span>
+                                </div>
+                                <!-- Chart -->
+                                <div class="mini-chart">
+                                    <svg viewBox="0 0 800 260" preserveAspectRatio="none">
+                                        <!-- Area 1 -->
+                                        <path class="mini-area-1"  d="M 40 150  L 110 170 L 180 80  L 250 190 L 320 110  L 390 120 L 460 130  L 530 130 L 600 60 L 670 30  L 740 90 L 780 20 L 780 230  L 40 230 Z" />
+                                         <!-- Line 1 -->
+                                        <path class="mini-line-1"   d="M 40 150  L 110 170  L 180 80  L 250 190  L 320 110  L 390 120  L 460 130   L 530 130 L 600 60 L 670 30   L 740 90 L 780 20" />
+                                        <!-- Area 2 -->
+                                        <path class="mini-area-2" d="M 40 170  L 110 180 L 180 190  L 250 200 L 320 150  L 390 170  L 460 175 L 530 185  L 600 130  L 670 90   L 740 160  L 780 85 L 780 230  L 40 230 Z" />
+                                        <!-- Line 2 -->
+                                        <path class="mini-line-2" d="M 40 170   L 110 180  L 180 190  L 250 200  L 320 150  L 390 170   L 460 175   L 530 185    L 600 130  L 670 90   L 740 160   L 780 85" />
+                                    </svg>
+                                    <!-- Months -->
+                                    <div class="mini-x-axis"><span>January</span><span>February</span><span>March</span><span>April</span><span>May</span><span>June</span><span>July</span><span>August</span><span>September</span><span>October</span><span>November</span><span>December</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bottom Grid -->
+            <section class="bottom-grid">
+                <!-- Calendar Widget -->
+                <div class="glass-card">
+                    <div class="calendar-header">
+                        <h2 class="card-title">January 2026</h2>
+                        <div class="calendar-nav">
+                            <button class="calendar-nav-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg></button>
+                            <button class="calendar-nav-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+                        </div>
+                    </div>
+                    <div class="calendar-grid">
+                        <span class="calendar-day-name">Sun</span><span class="calendar-day-name">Mon</span><span class="calendar-day-name">Tue</span><span class="calendar-day-name">Wed</span><span class="calendar-day-name">Thu</span><span class="calendar-day-name">Fri</span><span class="calendar-day-name">Sat</span>
+                        <span class="calendar-day other-month">28</span><span class="calendar-day other-month">29</span><span class="calendar-day other-month">30</span><span class="calendar-day ">31</span><span class="calendar-day">01</span><span class="calendar-day">02</span><span class="calendar-day">03</span>
+                        <span class="calendar-day">04</span><span class="calendar-day">05</span><span class="calendar-day">06</span><span class="calendar-day">07</span><span class="calendar-day today">08</span><span class="calendar-day">09</span><span class="calendar-day">10</span>
+                        <span class="calendar-day">11</span><span class="calendar-day">12</span><span class="calendar-day">13</span><span class="calendar-day">14</span><span class="calendar-day">15</span><span class="calendar-day">16</span><span class="calendar-day">17</span>
+                        <span class="calendar-day">18</span><span class="calendar-day">19</span><span class="calendar-day">20</span><span class="calendar-day">21</span><span class="calendar-day">22</span><span class="calendar-day">23</span><span class="calendar-day">24</span>
+                        <span class="calendar-day">25</span><span class="calendar-day">26</span><span class="calendar-day">27</span><span class="calendar-day">28</span><span class="calendar-day">29</span><span class="calendar-day">30</span><span class="calendar-day other-month">31</span>
+                    </div>
+                </div>
+
+                <!-- Donut Chart -->
+                <div class="glass-card">
+                    <div class="card-header">
+                        <div>
+                            <h2 class="card-title">Sales by Segment</h2>
+                            <p class="card-subtitle">Segment-wise breakdown</p>
+                        </div>
+                    </div>
+                    <div class="donut-container">
+                        <div class="donut-chart">
+                            <svg width="140" height="140" viewBox="0 0 140 140">
+                                <circle class="donut-bg" cx="70" cy="70" r="54"/>
+                                <circle class="donut-segment" cx="70" cy="70" r="54" stroke="var(--emerald-light)" stroke-dasharray="169.6 339.3" stroke-dashoffset="0"/>
+                                <circle class="donut-segment" cx="70" cy="70" r="54" stroke="var(--gold)" stroke-dasharray="101.8 339.3" stroke-dashoffset="-169.6"/>
+                                <circle class="donut-segment" cx="70" cy="70" r="54" stroke="var(--coral)" stroke-dasharray="67.9 339.3" stroke-dashoffset="-271.4"/>
+                            </svg>
+                            
+                        </div>
+                        <div class="donut-legend">
+                            <div class="legend-item"><span class="legend-color cyan"></span><span>Consumer (48%)</span></div>
+                            <div class="legend-item"><span class="legend-color magenta"></span><span>Corporate (33%)</span></div>
+                            <div class="legend-item"><span class="legend-color purple"></span><span>Home Office (19%)</span></div>
+                        </div>
+                    </div>
+                    <div class="card-header">
+                        <div>
+                            <h2 class="card-title">Sales by Payment Mode</h2>
+                            <p class="card-subtitle">Payment-wise breakdown</p>
+                        </div>
+                    </div>
+                    <div class="donut-container">
+                        <div class="donut-chart">
+                            <svg width="140" height="140" viewBox="0 0 140 140">
+                                <circle class="donut-bg" cx="70" cy="70" r="54"/>
+                                <circle class="donut-segment" cx="70" cy="70" r="54" stroke="var(--emerald-light)" stroke-dasharray="169.6 339.3" stroke-dashoffset="0"/>
+                                <circle class="donut-segment" cx="70" cy="70" r="54" stroke="var(--gold)" stroke-dasharray="101.8 339.3" stroke-dashoffset="-169.6"/>
+                                <circle class="donut-segment" cx="70" cy="70" r="54" stroke="var(--coral)" stroke-dasharray="67.9 339.3" stroke-dashoffset="-271.4"/>
+                            </svg>
+                            
+                        </div>
+                        <div class="donut-legend">
+                            <div class="legend-item"><span class="legend-color cyan"></span><span>Cash on Delivery (43%)</span></div>
+                            <div class="legend-item"><span class="legend-color magenta"></span><span>Online (35%)</span></div>
+                            <div class="legend-item"><span class="legend-color purple"></span><span>Cards (22%)</span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="glass-card progress-card">
+                    <div class="card-header">
+                        <div>
+                            <h2 class="card-title">Sales by Sub-Category</h2>
+                        </div>
+                    </div>
+
+                    <div class="hbar-card2">
+                          <div class="hbar2-row">
+                            <span class="hbar2-label">Phones</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 100%;">
+                                    <span class="hbar2-value">0.20M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar2-row">
+                            <span class="hbar2-label">Chairs</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 90%;">
+                                    <span class="hbar2-value">0.18M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar2-row">
+                            <span class="hbar2-label">Binders</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 85%;">
+                                    <span class="hbar2-value">0.17M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar2-row">
+                            <span class="hbar2-label">Storage</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 75%;">
+                                    <span class="hbar2-value">0.15M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar2-row">
+                            <span class="hbar2-label">Accessories</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 62%;">
+                                    <span class="hbar2-value">0.12M</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+                <div class="glass-card progress-card">
+                    <div class="card-header">
+                        <div>
+                            <h2 class="card-title">Sales by Category</h2>
+                        </div>
+                    </div>
+
+                    <div class="hbar-card2">
+                          <div class="hbar2-row">
+                            <span class="hbar2-label">Office Supplies</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 100%;">
+                                    <span class="hbar2-value">0.64M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar2-row">
+                            <span class="hbar2-label">Technology</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 75%;">
+                                    <span class="hbar2-value">0.47M</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hbar2-row">
+                            <span class="hbar2-label">Furniture</span>
+                            <div class="hbar2-track">
+                                <div class="hbar2-bar" style="width: 70%;">
+                                    <span class="hbar2-value">0.45M</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                    
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>Copyright © 2026 Your Company. Designed by <a href="https://templatemo.com" target="_blank" rel="nofollow">Sakshi Parashar</a></p>
+    </footer>
+
+    <script src="templatemo-glass-admin-script.js"></script>
+    <!-- TemplateMo 607 Glass Admin -->
+</body>
+</html>
